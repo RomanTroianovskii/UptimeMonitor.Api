@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/QxD/QWQHeQMwJu2V4BJLUbwUk9kDBBeqRZ4CcHzYo4=",
+  "Source": "UptimeMonitor.Api",
+  "BasePath": "_content/UptimeMonitor.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
