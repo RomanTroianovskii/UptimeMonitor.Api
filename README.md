@@ -195,9 +195,3 @@ dotnet build .\UptimeMonitor.Api\UptimeMonitor.Api.sln
 dotnet run --project .\UptimeMonitor.Api\UptimeMonitor.Api\UptimeMonitor.Api.csproj
 ```
 
-## Примечания
-
-- сервис считает успешными только HTTP-ответы `2xx`
-- если `Telegram:BotToken` не задан, уведомления просто не отправляются
-- если у монитора не указан `telegramChatId`, используется `Telegram:DefaultChatId`
-- в текущем API нет авторизации, поэтому сервис лучше не публиковать в открытый доступ без дополнительной защиты
