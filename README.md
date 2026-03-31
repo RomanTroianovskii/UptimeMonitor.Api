@@ -201,7 +201,3 @@ dotnet run --project .\UptimeMonitor.Api\UptimeMonitor.Api\UptimeMonitor.Api.csp
 - если `Telegram:BotToken` не задан, уведомления просто не отправляются
 - если у монитора не указан `telegramChatId`, используется `Telegram:DefaultChatId`
 - в текущем API нет авторизации, поэтому сервис лучше не публиковать в открытый доступ без дополнительной защиты
-
-## Проверка в текущем окружении
-
-Файл README собран по фактическому коду проекта. Полная проверка `dotnet restore` и `dotnet build` в этом окружении не завершилась из-за блокировки доступа к `https://api.nuget.org/v3/index.json`, а не из-за ошибки в коде проекта.
